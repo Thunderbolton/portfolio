@@ -1,3 +1,48 @@
 * {
     box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    margin-left: 20px;
+    margin: 40px 0;
+}
+
+nav ul {
+    display: flex;
+    margin-left: auto; 
+}
+
+nav li {
+    margin-right: 10px;
+}
+
+.profile-top {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    border: 2px solid red;
+}
+
+.profile-top h3 {
+    margin-top: 10px;
+}
+
+#profile-photo {
+  height: 250px;
+  width: 250px;
+  margin: 20px 0;
+  /* background-color: #bbb; */
+  border: solid 2px #333;
+  border-radius: 50%;
+}
+
+footer {
+    text-align: center;
 }
