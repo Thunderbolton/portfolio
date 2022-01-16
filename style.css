@@ -100,24 +100,41 @@ nav li {
 
 .contact {
     margin-top: 100px;
-    border: solid red 2px;
-    width: 50%;
+    /* border: solid red 2px; */
+    width: 80%;
     margin: auto;
 }
 
-.contact h2 {
+.contact h1 {
     margin-bottom: 20px;
     text-align: center;
 }
 
-.contact form {
+.contact form div {
     display: flex;
     flex-direction: column;
+    padding: 20px 0;
+    line-height: 2.5rem;
+    font-size: 20px;
 }
 
-.contact form label {
-    padding: 15px 0; 
+.contact form input {
+    height: 50px;
+    padding-left: 10px;
+    border: solid 2px #333;
+    border-radius: 10px;
 }
+
+.contact form textarea {
+    height: 150px;
+    max-width: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: solid 2px #333;
+    border-radius: 10px;
+}
+
+
 
 footer {
     margin-top: 150px;
