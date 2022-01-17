@@ -99,14 +99,17 @@ nav li {
 }
 
 .contact {
+    width: 60%;
+    height: 750px;
+    position: relative;
     margin-top: 100px;
-    /* border: solid red 2px; */
-    width: 80%;
     margin: auto;
+    font-size: 18px;
+    /* border: solid red 2px; */
 }
 
 .contact h1 {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     text-align: center;
 }
 
@@ -115,7 +118,6 @@ nav li {
     flex-direction: column;
     padding: 20px 0;
     line-height: 2.5rem;
-    font-size: 20px;
 }
 
 .contact form input {
@@ -134,7 +136,18 @@ nav li {
     border-radius: 10px;
 }
 
-
+.contact form button {
+    width: 100px;
+    position: absolute;
+    margin: auto;
+    bottom: 5%;
+    left:0;
+    right:0;
+    padding: 5px 0;
+    font-size: 18px;
+    background-color: #fff;
+    border-radius: 10px;
+}
 
 footer {
     margin-top: 150px;
