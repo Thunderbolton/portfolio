@@ -59,11 +59,26 @@ nav li {
   border-radius: 50%;
 }
 
+
+/* ABOUT */
+
+.about {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    border: solid 2px red;
+} 
+
+.about h1 {
+    margin-bottom: 30px;
+}
+
 /* PROJECTS */
 .projects {
     margin-top: 20px;
     margin-bottom: 100px;
     text-align: center;
+    border: solid red 2px;
 }
 
 .projects-container {
