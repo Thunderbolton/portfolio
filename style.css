@@ -63,21 +63,57 @@ nav li {
 /* ABOUT */
 
 .about {
-    width: 60%;
-    margin: auto;
+    display: flex;
     text-align: center;
-    border: solid 2px red;
-} 
+    padding: 5em 1em;
+    /* border: solid 2px red; */
+}
+
+.about-info {
+    width: 50%;
+    /* border: solid 2px red; */
+}
 
 .about h1 {
     margin-bottom: 30px;
 }
 
-.programming-icons {
-    width: 70px;
-    height: 70px;
+.about-icons {
+    width: 50%;
     /* border: solid 2px red; */
 }
+
+.icons-grid {
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    /* border: solid 2px red; */
+}
+
+
+.programming-icons {
+    width: 70px;
+    /* border: solid 2px red; */
+}
+
+@media (max-width: 900px){
+    .about {
+        flex-direction: column;
+    }
+
+    .about-info {
+        width: 100%;
+    }
+
+    .about-icons {
+        width: 100%;
+        margin-top: 3em;
+    }
+}
+
+
 
 /* PROJECTS */
 .projects {
