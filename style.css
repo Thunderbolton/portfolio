@@ -8,6 +8,10 @@
     padding: 0;
 }
 
+h1 {
+    font-size: clamp(2rem, 2.5vw, 4rem); 
+}
+
 /* NAVIGATION */
 nav {
     display: flex;
@@ -71,7 +75,8 @@ nav li {
 
 .about-info {
     width: 50%;
-    /* border: solid 2px red; */
+    padding: 0 3em;
+    border: solid 2px red;
 }
 
 .about h1 {
@@ -80,7 +85,7 @@ nav li {
 
 .about-icons {
     width: 50%;
-    /* border: solid 2px red; */
+    border: solid 2px red;
 }
 
 .icons-grid {
