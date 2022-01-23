@@ -4,8 +4,18 @@
     box-sizing: border-box;
     font-family: 'Oxygen', sans-serif;
     list-style: none;
+    text-decoration: none;
     margin: 0;
     padding: 0;
+}
+
+/* body {
+    background-color: steelblue;
+    color: #fff;
+} */
+
+button {
+    cursor: pointer;
 }
 
 html {
@@ -15,6 +25,7 @@ html {
 h1 {
     font-size: clamp(2rem, 2.5vw, 4rem); 
 }
+
 
 /* NAVIGATION */
 nav {
@@ -129,15 +140,14 @@ nav li {
     margin-top: 20px;
     margin-bottom: 100px;
     text-align: center;
-    border: solid red 2px;
+    /* border: solid red 2px; */
 }
 
 .projects-container {
     display: flex;
-    flex-direction: row;
     width: 95%;
+    height: 580px;
     margin: auto;
-    height: auto;
     /* border: solid 2px red; */
 }
 
@@ -146,6 +156,10 @@ nav li {
     margin: 1.5em;
     border-radius: 15px;
     border: 2px solid #333;
+    transition: height .20s;
+}
+.projects-container > div:hover {
+    height: 520px;
 }
 
 .projects-container img {
