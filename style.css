@@ -153,6 +153,9 @@ nav li {
 }
 
 .projects-container > div {
+    display: flex;
+    flex-direction: column;
+    line-height: 2em;
     height: 500px;
     margin: 1.5em;
     border-radius: 15px;
@@ -184,6 +187,7 @@ nav li {
     width: 60%;
     height: 750px;
     margin: auto;
+    position: relative;
     font-size: 18px;
     /* border: solid red 2px; */
 }
@@ -220,7 +224,7 @@ nav li {
     width: 100px;
     position: absolute;
     margin: auto;
-    bottom: 5%;
+    bottom: 5px;
     left:0;
     right:0;
     padding: 5px 0;
