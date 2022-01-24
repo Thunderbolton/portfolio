@@ -14,12 +14,13 @@
     color: #fff;
 } */
 
-button {
-    cursor: pointer;
-}
 
 html {
     scroll-behavior: smooth;
+}
+
+button {
+    cursor: pointer;
 }
 
 h1 {
@@ -175,14 +176,13 @@ nav li {
     .projects-container {
         flex-direction: column;
         width: 475px;
+        margin-bottom: 760px;
     }
 }
 
 .contact {
     width: 60%;
     height: 750px;
-    position: relative;
-    margin-top: 100px;
     margin: auto;
     font-size: 18px;
     /* border: solid red 2px; */
