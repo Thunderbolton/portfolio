@@ -149,7 +149,7 @@ nav li {
     width: 95%;
     min-height: 580px;
     margin: auto;
-    border: solid 2px red;
+    /* border: solid 2px red; */
 }
 
 .projects-container > div {
@@ -157,14 +157,18 @@ nav li {
     flex-direction: column;
     line-height: 2em;
     height: 500px;
-    width: 100%;
+    width: 90%;
     margin: 1.5em;
     border-radius: 15px;
     border: 2px solid #333;
     transition: height .20s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .projects-container > div:hover {
     height: 520px;
+    /* box-shadow: 10px 10px 5px cornflowerblue; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  /* text-align: center; */
 }
 
 .projects-container img {
@@ -180,7 +184,6 @@ nav li {
     .projects-container {
         flex-direction: column;
         width: 475px;
-        /* margin-bottom: 760px; */
     }
 }
 
