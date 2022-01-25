@@ -147,9 +147,9 @@ nav li {
 .projects-container {
     display: flex;
     width: 95%;
-    height: 580px;
+    min-height: 580px;
     margin: auto;
-    /* border: solid 2px red; */
+    border: solid 2px red;
 }
 
 .projects-container > div {
@@ -157,6 +157,7 @@ nav li {
     flex-direction: column;
     line-height: 2em;
     height: 500px;
+    width: 100%;
     margin: 1.5em;
     border-radius: 15px;
     border: 2px solid #333;
@@ -179,7 +180,7 @@ nav li {
     .projects-container {
         flex-direction: column;
         width: 475px;
-        margin-bottom: 760px;
+        /* margin-bottom: 760px; */
     }
 }
 
