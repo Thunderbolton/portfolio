@@ -189,7 +189,7 @@ nav li {
 .projects-container .text {
     padding: 0 15px;
     margin-top: 10px;
-    font-size: clamp(1rem, 1.2vw, 2rem); 
+    font-size: clamp(0.9rem, 1.2vw, 2rem); 
 }
 
 
@@ -201,6 +201,9 @@ nav li {
     }
     .projects-container > div:hover {
         height: 630px;
+    }
+    .projects-container .text {
+        font-size: 1.3rem;
     }
 }
 
