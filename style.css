@@ -147,8 +147,9 @@ nav li {
 .projects-container {
     display: flex;
     width: 95%;
-    min-height: 580px;
+    min-height: 720px;
     margin: auto;
+    border-bottom: 2px solid #95A5A6;
     /* border: solid 2px red; */
 }
 
@@ -156,34 +157,50 @@ nav li {
     display: flex;
     flex-direction: column;
     line-height: 2em;
-    height: 500px;
+    height: 630px;
     width: 90%;
     margin: 1.5em;
     border-radius: 15px;
-    border: 2px solid #333;
+    /* border: 2px solid #333; */
     transition: height .20s;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .projects-container > div:hover {
-    height: 520px;
-    /* box-shadow: 10px 10px 5px cornflowerblue; */
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-  /* text-align: center; */
+    height: 660px;
+    box-shadow: 10px 10px 5px slategrey;
 }
 
 .projects-container img {
     height: 50%;
-    width: 100%;
-    margin-bottom: 2em;
+    max-width: 100%;
+    margin-bottom: 1em;
     border-top-left-radius: 13px;
     border-top-right-radius: 13px;
+    border-bottom: 2px solid #333;
     object-fit: cover;
+    object-position: 40%;
 }
+
+.project-info {
+    margin: 0 auto;
+}
+
+.projects-container .text {
+    padding: 0 15px;
+    margin-top: 10px;
+    font-size: clamp(1rem, 1.2vw, 2rem); 
+}
+
+
 
 @media (max-width: 900px){
     .projects-container {
         flex-direction: column;
         width: 475px;
+    }
+    .projects-container > div:hover {
+        height: 630px;
     }
 }
 
