@@ -192,6 +192,20 @@ nav li {
     font-size: clamp(0.9rem, 1.2vw, 2rem); 
 }
 
+.project-tech {
+    margin-top: 2em;
+    /* border: 2px solid red; */
+}
+.project-tech li {
+    display: inline;
+    font-size: 0.9rem;
+    padding: 5px;
+    color: #145A32;
+    background-color: #ABEBC6;
+    border: 2px solid #ABEBC6;
+    border-radius: 25px;
+}
+
 
 
 @media (max-width: 900px){
