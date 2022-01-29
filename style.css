@@ -87,13 +87,13 @@ nav li {
     width: 200px;
 }
 .contact-icons i {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     text-align: center;
     transition: transform 0.3s;
     /* border: 2px solid red; */
 }
 .contact-icons i:hover {
-    transform: translate(0, -20px);
+    transform: translate(0, -10px);
 }
 .contact-icons-sm {
     font-size: 1.5rem;
@@ -168,7 +168,7 @@ nav li {
 .projects-container {
     display: flex;
     width: 95%;
-    min-height: 720px;
+    min-height: 820px;
     margin: auto;
     border-bottom: 2px solid #95A5A6;
     /* border: solid 2px red; */
@@ -178,17 +178,17 @@ nav li {
     display: flex;
     flex-direction: column;
     line-height: 2em;
-    height: 630px;
+    height: 680px;
     width: 90%;
     margin: 1.5em;
     border-radius: 15px;
     /* border: 2px solid #333; */
-    transition: height .20s;
+    transition: height .15s;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .projects-container > div:hover {
-    height: 660px;
+    height: 710px;
     box-shadow: 10px 10px 5px slategrey;
 }
 
@@ -213,14 +213,27 @@ nav li {
     font-size: clamp(0.9rem, 1.2vw, 2rem); 
 }
 
+.project-icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 15px;
+    font-size: 2rem;
+    /* border: solid 2px red; */
+    width: 100px;
+}
+
 .project-tech {
-    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
     /* border: 2px solid red; */
 }
 .project-tech li {
-    display: inline;
     font-size: 0.9rem;
-    padding: 6px;
+    margin: 0 10px;
+    padding: 0 5px;
     color: #145A32;
     background-color: #ABEBC6;
     border: 2px solid #ABEBC6;
