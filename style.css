@@ -179,12 +179,14 @@ nav li {
 .project-container-top {
     display: flex;
     justify-content: space-evenly;
+    min-height: 710px;
     /* border: solid 2px red; */
 }
 
 .project-container-bottom {
     display: flex;
     justify-content: center;
+    min-height: 710px;
     /* border: 2px solid red; */
 }
 
