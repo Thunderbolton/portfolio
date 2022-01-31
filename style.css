@@ -126,6 +126,32 @@ nav li {
     margin-bottom: 30px;
 }
 
+.wave {
+    animation-name: wave-animation;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+    transform-origin: 80% 80%;
+    display: inline-block;
+    animation-timing-function: linear;
+}
+
+@keyframes wave-animation {
+    0% {transform: rotate(0deg);}
+    10% {transform: rotate(14deg);}
+    20% {transform: rotate(-8deg);}
+    30% {transform: rotate(14deg);}
+    40% {transform: rotate(-4deg);}
+    50% {transform: rotate(10deg);}
+    60% {transform: rotate(0deg);}
+    100% {transform: rotate(0deg);}
+    
+}
+
+/* @keyframes wave-animation {
+    from {transform: rotate(30deg);}
+    to {transform: rotate(60deg);}
+} */
+
 .about-icons {
     width: 50%;
     /* border: solid 2px red; */
