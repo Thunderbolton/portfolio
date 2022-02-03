@@ -327,7 +327,15 @@ nav li {
 @media (max-width: 600px) {
     .projects {
         width: 350px;
-        height: 650px;
+        height: 670px;
+    }
+
+    .projects:hover {
+        height: 700px;
+    }
+
+    .projects-container img {
+        object-position: 50%;
     }
 }
 
