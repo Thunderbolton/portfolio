@@ -55,6 +55,12 @@ nav p {
     font-size: 30px;
     margin-left: auto;
     display: none !important;
+    cursor: pointer;
+}
+.fa-times {
+    font-size: 30px;
+    display: none !important;
+    cursor: pointer;
 }
 
 nav ul {
