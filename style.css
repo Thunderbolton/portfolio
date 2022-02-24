@@ -398,6 +398,11 @@ nav li {
     color: #2A3E4C;
 }
 
+.contact section {
+    display: flex;
+    flex-direction: column;
+}
+
 .contact form div {
     display: flex;
     flex-direction: column;
@@ -408,7 +413,7 @@ nav li {
 .contact form input {
     height: 50px;
     padding-left: 10px;
-    border: solid 2px #333;
+    border: solid 2px #BFC9CA;
     border-radius: 10px;
 }
 
@@ -417,7 +422,7 @@ nav li {
     max-width: 100%;
     padding-left: 10px;
     padding-top: 10px;
-    border: solid 2px #333;
+    border: solid 2px #BFC9CA;
     border-radius: 10px;
 }
 

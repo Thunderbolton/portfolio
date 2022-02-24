@@ -132,7 +132,7 @@
         <section class="contact" id="contact">
             <h1>Contact Me</h1>
             <h3>Feel free to shoot me a message. I'm open to employment opportunities.</h3>
-            <form action="" method="POST">
+            <form id="my-form" action="https://formspree.io/f/myyowqwy" method="POST">
                 <div>
                     <label>Name</label>
                     <input type="text" name="name" required>
@@ -149,9 +149,10 @@
                     <label>Message</label>
                     <textarea name="message" required></textarea>
                 </div>
-                <button type="submit">Send</button>    
+                <button type="submit">Send</button>  
             </form>
         </section>
+        <p id="my-form-status"></p>
     </main>
     <footer>
         <p>&copy; 2022</p>
