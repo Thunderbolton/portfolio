@@ -26,7 +26,9 @@ const form = document.getElementById("my-form");
         }
       }).then(response => {
         if (response.ok) {
-          status.innerHTML = "Thanks for your message!";
+          status.innerHTML = "Thanks for your message! I'll be in touch.";
+          status.style.backgroundColor = "#ABEBC6";
+          setTimeout(() => status.remove(), 5000);
           form.reset()
         } else {
           response.json().then(data => {

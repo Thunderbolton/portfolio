@@ -382,11 +382,13 @@ nav li {
 
 .contact {
     width: 60%;
-    height: 750px;
+    height: auto;
     margin: auto;
     position: relative;
     font-size: 1.1rem;
     /* border: solid red 2px; */
+    display: flex;
+    flex-direction: column;
 }
 
 .contact h1, h3 {
@@ -396,11 +398,6 @@ nav li {
 
 .contact h3 {
     color: #2A3E4C;
-}
-
-.contact section {
-    display: flex;
-    flex-direction: column;
 }
 
 .contact form div {
@@ -427,11 +424,9 @@ nav li {
 }
 
 .contact form button {
-    width: 100px;
-    position: absolute;
-    margin: auto;
-    left:0;
-    right:0;
+    width: 130px;
+    display: block;
+    margin: 0 auto;
     padding: 5px 0;
     font-size: 18px;
     background-color: #fff;
@@ -441,6 +436,17 @@ nav li {
 .contact form button:hover {
     background-color: #2A3E4C;
     color: #fff;
+}
+
+#my-form-status {
+    text-align: center;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #145A32;
+    /* background-color: #ABEBC6; */
+    /* border: 2px solid #333; */
+    /* border: solid red 2px; */
 }
 
 footer {
