@@ -15,7 +15,7 @@
         <i class="fas fa-times"></i>
         <ul>
             <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
+            <li><a href="#projects-section">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
@@ -24,15 +24,18 @@
     <div class="mobile-menu">
         <ul>
             <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
+            <li><a href="#projects-section">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </div>
 
     <main>
         <section class="profile">
-            <h1>Hi, I'm Adam <span class="wave">👋</span></h1>
-            <h2>Front End Developer</h2>
+            <div class="profile-text">
+                <h1>Hi, I'm Adam <span class="wave">👋</span></h1>
+                <h2>Front End Developer</h2>
+            </div>
+            
             <div id="profile-photo">
                 <img src="img\profile.jpg" alt="profile-photo">
             </div>
@@ -58,23 +61,23 @@
                     <img class="programming-icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html5"/>
                     <img class="programming-icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="css3"/>
                     <img class="programming-icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript"/>
+                    <img class="programming-icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="typescript" />
                     <img class="programming-icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react"/>
                     <img class="programming-icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" alt="materialui"/>
                     <img class="programming-icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="nodejs"/>
                     <img class="programming-icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="express"/>
-                    <img class="programming-icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg" alt="heroku"/>
+                    <img class="programming-icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="mongodb" />
+                    <img class="programming-icons" src="img\Mongoose.js.svg"><img class="programming-icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg" alt="heroku"/>
                     <img class="programming-icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git"/>
                 </div>
             </div>
         </section>
-        <section class="projects-section" id="projects">
+        <section class="projects-section" id="projects-section">
             <h1>Projects</h1>
             <h3>Take a look and play around with some of the applications I've made.</h3>
             <div class="projects-container">
-                <div class="project-container-top">
-                    <div id="project-1" class="projects">
+                    <div id="project-1" class="project-item">
                         <a href="https://thunderbolton.github.io/Conversation-app/"><img src="img\conversation-app.png" alt=""></a>
-                        <div class="project-info">
                             <h2>Let's talk about</h2>
                             <p class="text">A conversation application designed for my students during online lessons. The app allows them to select from a plethora of everyday conversation topics and view a list of questions in each category.</p>
                             <div class="project-icons">
@@ -86,11 +89,10 @@
                                 <li>CSS</li>
                                 <li>Javascript</li>
                             </ul>
-                        </div>
                     </div>
-                    <div id="project-2" class="projects">
+                    <div id="project-2" class="project-item">
                         <a href="https://easy-gold-squirrel-veil.cyclic.app/"><img src="img\news-app-screenshot.PNG" alt=""></a>
-                        <div class="project-info">
+                        
                             <h2>Read the Latest</h2>
                             <p class="text">An application where users can read the latest news stories from a range of categories or a selection of countries. Data is fetched from the News API and displayed in a responsive grid layout.</p>
                             <div class="project-icons">
@@ -99,18 +101,14 @@
                             </div>
                             <ul class="project-tech">
                                 <li>React</li>
-                                <li>Node/Express</li>
                                 <li>Material UI</li>
+                                <li>Node/Express</li>
                                 <li>Heroku/Cyclic</li>
                             </ul>
-                        </div>
-                        
                     </div>
-                </div>
-                <div class="project-container-bottom">
-                    <div id="project-3" class="projects">
+                    <div id="project-3" class="project-item">
                         <a href="https://thunderbolton.github.io/Online-English-School/"><img src="img\online-english-school1.png" alt=""></a>
-                        <div class="project-info">
+                        
                             <h2>Online English School</h2>
                             <p class="text">
                                 A multi-page online English school website intended to replicate an online language learning platform. Built with emphasis on the React Router for quick navigation between all pages.
@@ -122,11 +120,27 @@
                             <ul class="project-tech">
                                 <li>React</li>
                             </ul>
-                        </div>
                         
                     </div>
-                </div>
-                
+                    <div id="project-4" class="project-item">
+                        <a href="https://keep-english.onrender.com"><img src="img/keep-english2-light.png" alt=""></a>
+                            <h2>Keep English</h2>
+                            <p class="text">
+                                A diary style application designed for students to categorise and keep their English notes. Upon signing up, users will have the ability to create, update their entries. 
+                            </p>
+                            <div class="project-icons">
+                                <a href="https://github.com/Thunderbolton/Keep-English"><i class="fab fa-github"></i></a>
+                                <a href="https://keep-english.onrender.com"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                            <ul class="project-tech">
+                                <li>React</li>
+                                <li>MUI</li>
+                                <li>JS/Typescript</li>
+                                <li>Node/Express</li>
+                                <li>MongoDB</li>
+                                <li>Render</li>
+                            </ul>
+                    </div>
             </div>
         </section>
         <section class="contact" id="contact">
@@ -156,8 +170,8 @@
         
     </main>
     <footer>
-        <p>&copy; 2022</p>
-        <div class="contact-icons-sm">
+        <p>&copy; 2023</p>
+        <div id="footer-contact-icon">
             <a href="https://github.com/Thunderbolton"><i class="fab fa-github"></i></a>
         </div>
     </footer>
