@@ -307,6 +307,18 @@ nav li {
     object-fit: cover;
 }
 
+#project-5 {
+    min-width: 389px;
+    max-width: 650px;
+    grid-column: 1/-1;
+}
+
+#project-5 img {
+    object-position: top;
+    max-height: 550px;
+    object-fit: cover;
+}
+
 .projects-container .text {
     padding: 0 1em;
     font-size: clamp(0.9rem, 1.1vw, 2rem); 
